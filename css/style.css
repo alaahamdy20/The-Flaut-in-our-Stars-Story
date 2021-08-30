@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+}
+#header{
+    margin: 10px;
+    font-weight: 400;
+
+}
+#mainwrapper{
+    padding-left: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.609);
+    background-color: #eee;
+}
+#main{
+    flex-wrap: wrap;
+}
+#right{
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 700px;
+}
+.images{
+    width: 20px;
+    margin: 5px;
+    vertical-align: middle;
+}
+a{
+    color: lightblue;
+    font-weight: 400;
+
+}
